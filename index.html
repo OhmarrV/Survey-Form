@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1 id="title">FreeCodeCamp Survery Form</h1>
+    <p id="sub-title">This is a survey form for FreeCodeCamp</p>
+
+    <form id="survey-form">
+        <p>Name</p>
+        <input id="name-label" type="text" placeholder="Enter your name">
+        
+        <p>Email</p>
+        <input id="email-label" type="email" placeholder="Enter your Email">
+        
+        <p>Number</p>
+        <input id="number-label" type="number" min="0" max="120" placeholder="Age">
+
+        <p>LIST</p>
+        <select id="dropdown-label">
+            <option>1</option>
+            <option>2</option>
+        </select>
+
+        <p>Would you recommend</p>
+        <input type="radio" name="YES">radioButton1</input>
+        <input type="radio" name="maybe">radioButton2</input>
+        <input type="radio" name="NO">radioButton3</input>
+
+        <p>What would you like to improve<small>  (check all that apply)</small></p>
+        <input type="checkbox"><label>testLabel</label>
+        
+        <p>Any comments or suggestions?</p>
+        <textarea id="comment-section" placeholder="Enter your comment here..."></textarea>
+
+        <br>
+        <button id="submit-button">Submit</button>    
+    </form>
+    
+</body>
+</html>
