@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <h1 id="title">FreeCodeCamp Survery Form</h1>
-    <p id="sub-title">This is a survey form for FreeCodeCamp</p>
+    <h1 id="title">Omar's Computer Science Journey</h1>
+    <p id="sub-title">Survey form for Omar Velazquez</p>
 
     <form id="survey-form">
         <p>Name</p>
@@ -18,24 +18,27 @@
         <p>Email</p>
         <input id="email-label" type="email" placeholder="Enter your Email">
         
-        <p>Number</p>
-        <input id="number-label" type="number" min="0" max="120" placeholder="Age">
+        <p>Years of experience in computer science</p>
+        <input id="experience-label" type="number" min="0" max="120" placeholder="years">
 
-        <p>LIST</p>
+        <p>Are you in school</p>
         <select id="dropdown-label">
-            <option>1</option>
-            <option>2</option>
+            <option>Yes</option>
+            <option>No</option>
         </select>
 
-        <p>Would you recommend</p>
-        <input type="radio" name="YES">radioButton1</input>
-        <input type="radio" name="maybe">radioButton2</input>
-        <input type="radio" name="NO">radioButton3</input>
+        <p>What new language(s) do you recommend that I learn</p>
+        <input type="radio" name="python">Python</input>
+        <input type="radio" name="php">PHP</input>
+        <input type="radio" name="swift">Swift</input>
+        <input type="radio" name="c#">C#</input>
 
-        <p>What would you like to improve<small>  (check all that apply)</small></p>
-        <input type="checkbox"><label>testLabel</label>
+        <p>What project should I try to create<small>  (check all that apply)</small></p>
+        <input type="checkbox"><label>Intern job board</label>
+        <input type="checkbox"><label>Reminder app</label>
+        <input type="checkbox"><label>Personal food review blog</label>
         
-        <p>Any comments or suggestions?</p>
+        <p>Any advice or recommendations?</p>
         <textarea id="comment-section" placeholder="Enter your comment here..."></textarea>
 
         <br>
